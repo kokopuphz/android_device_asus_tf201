@@ -128,6 +128,7 @@ BOARD_SEPOLICY_UNION := \
     shell.te \
     surfaceflinger.te \
     system.te \
-    zygote.te
+    zygote.te \
+    auditd.te 
 
 BOARD_HARDWARE_CLASS := device/asus/tf201/cmhw/
